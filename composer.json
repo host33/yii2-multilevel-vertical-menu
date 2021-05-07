@@ -1,0 +1,24 @@
+{
+    "name": "host33/yii2-multilevel-vertical-menu",
+    "description": "This extension consists of a multilevel vertical menu.",
+    "keywords": ["yii2", "extension", "widget", "vertical menu", "menu"],
+    "homepage": "https://github.com/host33/yii2-multilevel-vertical-menu",
+    "type": "yii2-extension",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Marc Oliveras",
+            "email": "admin@oligalma.com",
+            "homepage": "http://www.oligalma.com/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "host33\\multilevelverticalmenu\\": ""
+        }
+    }
+}
